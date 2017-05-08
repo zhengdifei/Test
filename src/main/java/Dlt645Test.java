@@ -189,7 +189,7 @@ public class Dlt645Test implements SerialPortEventListener{
 
     public static void main(String[] args){
         Dlt645Test dlt645 = new Dlt645Test();
-        dlt645.setPacketlength(18);
+        dlt645.setPacketlength(19);
         dlt645.scanPorts();
         System.out.println("串口：" + dlt645.portList);
         dlt645.openSerialPort(dlt645.portList.get(0));
