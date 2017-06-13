@@ -17,7 +17,7 @@ import com.aspose.words.SaveFormat;
  * @author Spark
  *
  */
-public class AsposeTestWord {
+public class TestWordByAspose {
 
     private static InputStream license;
     private static InputStream word;
@@ -30,8 +30,8 @@ public class AsposeTestWord {
     public static boolean getLicense() {
         boolean result = false;
         try {
-            license = AsposeTestWord.class.getClassLoader().getResourceAsStream("\\license.xml");    // license路径
-            word = AsposeTestWord.class.getClassLoader().getResourceAsStream("\\template.doc");     // 原始word路径
+            license = TestWordByAspose.class.getClassLoader().getResourceAsStream("\\license.xml");    // license路径
+            word = TestWordByAspose.class.getClassLoader().getResourceAsStream("\\template.doc");     // 原始word路径
             License aposeLic = new License();
             aposeLic.setLicense(license);
             result = true;

@@ -14,7 +14,7 @@ import com.aspose.words.SaveFormat;
 /**
  * Word转换成Pdf
  */
-public class AsposeWord2PDFHelper
+public class Word2PDFHelperByAspose
 {
     /**
      * 获取license
@@ -111,7 +111,7 @@ public class AsposeWord2PDFHelper
             return;
         }
 
-        File inputFile = new File("D:\\template.doc");
+        File inputFile = new File("D:\\template.docx");
 
         InputStream inputStream = new FileInputStream(inputFile);
 

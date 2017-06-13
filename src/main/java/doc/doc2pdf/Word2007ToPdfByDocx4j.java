@@ -10,7 +10,7 @@ import java.io.OutputStream;
 /**
  * Created by Administrator on 2017/5/26 0026.
  */
-public class DocxToPdfTest {
+public class Word2007ToPdfByDocx4j {
     public static void main(String[] args) {
 
         try {

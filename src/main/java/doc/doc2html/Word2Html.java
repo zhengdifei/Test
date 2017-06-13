@@ -1,4 +1,4 @@
-package iText.doc2html;
+package doc.doc2html;
 
 import org.apache.poi.hwpf.HWPFDocument;
 import org.apache.poi.hwpf.converter.PicturesManager;
