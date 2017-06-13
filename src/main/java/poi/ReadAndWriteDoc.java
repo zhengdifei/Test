@@ -18,7 +18,7 @@ import org.apache.poi.hwpf.usermodel.Fields;
 import org.apache.poi.hwpf.usermodel.Range;
 
 public class ReadAndWriteDoc {
-	
+
 	private URL base = this.getClass().getResource("");
 
 	public void writeDoc(Map<String, String> map) {

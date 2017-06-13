@@ -1,0 +1,53 @@
+{
+  "name" : "郑涤非",
+  "examNum" : "123456789",
+  "IDCard" : "42070400000000011",
+  "carModel" : "B2",
+  "drivingSchool" : "车友",
+  "busyType" : "驾照",
+  "examDate" : "2017.3.5",
+  "orderCount" : "5",
+  "firstExamTime" : "am 10:52",
+  "firstExamScores" : "98",
+  "userImg" : {
+    "type" : "image",
+    "url" : "d:\\zdf.png"
+  },
+  "areaReport" : {
+    "type" : "pie",
+    "title" : "人员分布情况",
+    "width" : 1000,
+    "height" : 800,
+    "value" : {
+      "管理人员" : 25,
+      "市场人员" : 20,
+      "开发人员" : 40,
+      "其他人员" : 10
+    }
+  },
+  "barReport" : {
+    "type" : "bar",
+    "title" : "按月统计生成情况",
+    "xAxis" : "月份",
+    "yAxis" : "值",
+    "background" : "",
+    "category" : ["1月","2月","3月","4月"],
+    "value" : [{
+      "category" : "1月",
+      "series" : "生成量",
+      "value" : 500
+    },{
+      "category" : "2月",
+      "series" : "生成量",
+      "value" : 400
+    },{
+      "category" : "3月",
+      "series" : "生成量",
+      "value" : 380
+    },{
+      "category" : "4月",
+      "series" : "生成量",
+      "value" : 450
+    }]
+  }
+}
